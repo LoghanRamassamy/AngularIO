@@ -1,2 +1,2 @@
-# AngularIO
+# TypeScript
 Projet Angular IO - ESGI
