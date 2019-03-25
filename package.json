@@ -1,0 +1,25 @@
+{
+  "name": "typeScript-app",
+  "version": "1.0.0",
+  "description": "Angular TP 1 : pokemon",
+  "main": "pokemon.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildAndRun": "tsc ./pokemon.ts & node ./pokemon.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.3.4000"
+  },
+  "dependencies": {},
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": ["ts", "tsx", "js"]
+  }
+}
